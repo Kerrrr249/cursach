@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Семейная клиника «Айболит» в Москве: терапия, педиатрия, стоматология, анализы и УЗИ в один визит. 68 врачей, прозрачные цены, запись в день обращения.">
+  <title>Айболит — семейная клиника в Москве</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23173F2C'/%3E%3Cpath d='M24 14v20M14 24h20' stroke='%23F6F4EC' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Playfair+Display:ital,wght@0,500..800;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════ ВЕРХНЯЯ ПОЛОСА ═══════════ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__group-l">
+      <span class="topbar__item topbar__hide">Ежедневно 08:00–21:00</span>
+      <span class="topbar__item topbar__hide">· Покровка, 12, стр. 1</span>
+    </div>
+    <a class="topbar__item" href="tel:+74951234567">+7 (495) 123-45-67</a>
+  </div>
+</div>
+
+<!-- ═══════════ ШАПКА + БУРГЕР НА ЧИСТОМ CSS ═══════════ -->
+<header class="header">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Открыть или закрыть меню">
+  <div class="container header__inner">
+    <a class="logo" href="#" aria-label="Айболит — наверх">
+      <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="13" fill="#173F2C"/>
+        <path d="M24 14.2v19.6M14.2 24h19.6" stroke="#F6F4EC" stroke-width="5.8" stroke-linecap="round"/>
+        <circle cx="37.6" cy="10.4" r="4.4" fill="#C9A24B"/>
+      </svg>
+      <span><span class="logo__name">Айболит</span><span class="logo__tag">семейная клиника</span></span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги и цены</a>
+      <a href="#doctors">Врачи</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn" href="#booking">Онлайн-запись</a>
+    <label class="burger" for="nav-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+  </div>
+  <nav class="mobile-nav" aria-label="Мобильное меню">
+    <div class="container">
+      <a href="#services">Услуги и цены</a>
+      <a href="#doctors">Врачи</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <a href="#booking">Онлайн-запись</a>
+      <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <span class="eyebrow">Семейная клиника · Москва, Покровка</span>
+      <h1>Забота о вас.<br>И о <em>тех, кто вам дорог.</em></h1>
+      <p class="hero__lead">Взрослые и дети от 0 лет, врачи 35 специальностей, запись в день обращения. Приём, анализы и УЗИ — за один визит.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#booking">Записаться на приём</a>
+        <a class="btn btn--ghost" href="#services">Услуги и цены</a>
+      </div>
+      <div class="hero__note">
+        <span><b>68 врачей</b> в штате</span>
+        <span><b>40 000+</b> пациентов</span>
+        <span><b>По ОМС и ДМС</b></span>
+      </div>
+    </div>
+    <img class="hero__photo" src="img/hero.jpg" alt="Врач-терапевт на приёме с мамой и ребёнком в уютном кабинете клиники" width="1376" height="768">
+  </div>
+</section>
+
+<!-- ═══════════ ЦИФРЫ КЛИНИКИ ═══════════ -->
+<div class="trust" aria-label="Клиника в цифрах">
+  <div class="container">
+    <div class="trust__item"><div class="trust__num">14</div><div class="trust__cap">лет заботимся о семьях Москвы</div></div>
+    <div class="trust__item"><div class="trust__num">68</div><div class="trust__cap">врачей 35 специальностей</div></div>
+    <div class="trust__item"><div class="trust__num">96%</div><div class="trust__cap">пациентов рекомендуют нас близким</div></div>
+    <div class="trust__item"><div class="trust__num">15 мин</div><div class="trust__cap">максимум ожидания — приём строго по времени</div></div>
+  </div>
+</div>
+
+<!-- ═══════════ УСЛУГИ И ЦЕНЫ ═══════════ -->
+<section class="section" id="services" aria-labelledby="t-services">
+  <div class="container price-layout">
+    <div>
+      <span class="eyebrow">Прайс без сюрпризов</span>
+      <h2 class="section-title" id="t-services">Услуги<br>и цены</h2>
+      <p class="muted">Стоимость фиксируем в договоре до начала лечения. ОМС, ДМС (СОГАЗ, Ингосстрах, АльфаСтрахование и др.) и платно. Полный прайс — на ресепшене и по телефону.</p>
+      <p style="margin-top:22px"><a class="btn" href="#booking">Записаться</a></p>
+    </div>
+    <table class="prices card">
+      <tbody>
+        <tr><td><b>Первичный приём терапевта</b><small>45 мин · осмотр, опрос, план лечения</small></td><td>2 800 ₽</td></tr>
+        <tr><td><b>Приём педиатра</b><small>30 мин · дети от 0 до 18 лет</small></td><td>2 500 ₽</td></tr>
+        <tr><td><b>Консультация кардиолога с ЭКГ</b><small>45 мин · расшифровка включена</small></td><td>3 500 ₽</td></tr>
+        <tr><td><b>УЗИ брюшной полости</b><small>30 мин · заключение в день обращения</small></td><td>2 200 ₽</td></tr>
+        <tr><td><b>Общий анализ крови</b><small>результат в день сдачи · с 08:00</small></td><td>650 ₽</td></tr>
+        <tr><td><b>Лечение кариеса (1 зуб)</b><small>пломба + анестезия включены</small></td><td>7 500 ₽</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════ КАК НАЧАТЬ: 3 ШАГА ═══════════ -->
+<section class="steps section" aria-labelledby="t-steps">
+  <div class="container">
+    <span class="eyebrow" style="color:#9FC4A7">Как начать</span>
+    <h2 id="t-steps" style="color:#F6F4EC; margin-top:12px">От вопроса до приёма —<br>три простых шага</h2>
+    <div class="steps__grid">
+      <article class="step"><div class="step__num">01 · ЗАЯВКА</div><h3>Оставьте заявку</h3><p>Выберите удобные вариант ниже и нажмите «Записаться» — или просто позвоните, перезвоним за 15 минут.</p></article>
+      <article class="step"><div class="step__num">02 · ПОДТВЕРЖДЕНИЕ</div><h3>Выберите врача и время</h3><p>Покажем ближайшие окна, стаж и отзывы. Перенос и отмена — бесплатно, просто предупредите за 3 часа.</p></article>
+      <article class="step"><div class="step__num">03 · ВИЗИТ</div><h3>Приходите на приём</h3><p>Напомним за 3 часа по SMS. Нужен только паспорт и полис — остальное соберём сами.</p></article>
+    </div>
+    <p style="margin-top:24px"><a class="btn btn--light" href="#booking">Выбрать удобное время</a></p>
+  </div>
+</section>
+
+<!-- ═══════════ ВРАЧИ: «Подробнее» открывает окна через :target ═══════════ -->
+<section class="section" id="doctors" aria-labelledby="t-doctors">
+  <div class="container">
+    <span class="eyebrow">Команда</span>
+    <h2 class="section-title" id="t-doctors">Сначала познакомиться</h2>
+    <p class="muted">Нажмите «Подробнее» — окно откроется на этой же странице.</p>
+    <div class="card-grid" style="margin-top:26px">
+      <article class="card doc-card">
+        <img class="doc-card__photo" src="img/sokolova.jpg" alt="Соколова Елена Андреевна, врач-терапевт" loading="lazy">
+        <div class="doc-card__body">
+          <h3>Соколова Елена Андреевна</h3>
+          <p class="doc-card__spec">Терапевт высшей категории · стаж 14 лет</p>
+          <div class="doc-card__row"><span>★ 4,9 · 312 отзывов</span><span class="doc-card__price">2 800 ₽</span></div>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <a class="btn btn--ghost" href="#modal-sokolova" style="flex:1">Подробнее</a>
+            <a class="btn" href="#booking" style="flex:1">Записаться</a>
+          </div>
+        </div>
+      </article>
+      <article class="card doc-card">
+        <img class="doc-card__photo" src="img/murashev.jpg" alt="Мурашов Артём Юрьевич, педиатр" loading="lazy">
+        <div class="doc-card__body">
+          <h3>Мурашов Артём Юрьевич</h3>
+          <p class="doc-card__spec">Педиатр · детский чекап · стаж 12 лет</p>
+          <div class="doc-card__row"><span>★ 4,9 · 268 отзывов</span><span class="doc-card__price">2 500 ₽</span></div>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <a class="btn btn--ghost" href="#modal-murashev" style="flex:1">Подробнее</a>
+            <a class="btn" href="#booking" style="flex:1">Записаться</a>
+          </div>
+        </div>
+      </article>
+      <article class="card doc-card">
+        <img class="doc-card__photo" src="img/kryuchkova.jpg" alt="Крючкова Ольга Леонидовна, кардиолог" loading="lazy">
+        <div class="doc-card__body">
+          <h3>Крючкова Ольга Леонидовна</h3>
+          <p class="doc-card__spec">Кардиолог высшей категории · стаж 21 год</p>
+          <div class="doc-card__row"><span>★ 5,0 · 190 отзывов</span><span class="doc-card__price">3 500 ₽</span></div>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <a class="btn btn--ghost" href="#modal-kryuchkova" style="flex:1">Подробнее</a>
+            <a class="btn" href="#booking" style="flex:1">Записаться</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ПРОСТРАНСТВО ═══════════ -->
+<section class="section" style="padding-top:0" aria-labelledby="t-space">
+  <div class="container feature">
+    <img class="feature__photo" src="img/interior.jpg" alt="Ресепшн и зона ожидания семейной клиники Айболит" loading="lazy">
+    <div>
+      <span class="eyebrow">Пространство</span>
+      <h2 class="section-title" id="t-space">Место, где можно<br>спокойно лечиться</h2>
+      <ul class="check-list">
+        <li><span class="check-ico">✓</span><span><b>Один визит вместо трёх:</b> консультация, анализы и УЗИ — в один день.</span></li>
+        <li><span class="check-ico">✓</span><span><b>Результаты в день сдачи</b> — в личном кабинете и по e-mail.</span></li>
+        <li><span class="check-ico">✓</span><span><b>Без очередей:</b> приём по точному времени, опоздание до 10 минут не сдвигает талон.</span></li>
+        <li><span class="check-ico">✓</span><span><b>Детям — бережно:</b> игровая зона и врачи-педиатры без слёз.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ОТЗЫВЫ ═══════════ -->
+<section class="section" id="reviews" style="padding-top:0" aria-labelledby="t-reviews">
+  <div class="container">
+    <span class="eyebrow">Отзывы · 4,9 из 5 · 2 340 оценок</span>
+    <h2 class="section-title" id="t-reviews">Важны не только цифры</h2>
+    <div class="card-grid" style="margin-top:22px">
+      <figure class="card review"><div class="stars">★★★★★</div><p>«Пришла с температурой и кашлем. Елена Андреевна за 40 минут разобралась, назначила лечение, через три дня я была здорова. Без лишних антибиотиков.»</p><figcaption class="review__who"><b>Анна Миронова</b><small>приём терапевта · октябрь 2026</small></figcaption></figure>
+      <figure class="card review"><div class="stars">★★★★★</div><p>«Дочке 2 года, нужна справка в сад. Думала, полдня убьём — получили за 15 минут. Очень спокойная атмосфера, ребёнок даже не заметил врача.»</p><figcaption class="review__who"><b>Дина Ким</b><small>педиатрия, справка · сентябрь 2026</small></figcaption></figure>
+      <figure class="card review"><div class="stars">★★★★☆</div><p>«Холтер поставили на следующий день после звонка, результат — в тот же день. Единственное: парковка утром занята, приезжайте к открытию.»</p><figcaption class="review__who"><b>Сергей Рогов</b><small>кардиология · ноябрь 2026</small></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FAQ: <details> — без JS ═══════════ -->
+<section class="section" style="padding-top:0" aria-labelledby="t-faq">
+  <div class="container" style="max-width:880px">
+    <span class="eyebrow">Спокойствие</span>
+    <h2 class="section-title" id="t-faq">Частые вопросы</h2>
+    <details class="faq-item" open>
+      <summary>Можно ли записаться в день обращения?</summary>
+      <div class="faq-item__body">Да. Ежедневно с 08:00 держим «живые» окна у терапевтов и педиатров, анализы принимаем без записи. Позвоните — предложим время сегодня.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Как перенести или отменить запись?</summary>
+      <div class="faq-item__body">Бесплатно и без объяснений — по телефону +7 (495) 123-45-67 или на ресепшене. Просто предупредите за 3 часа.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Принимаете ли вы по ОМС и ДМС?</summary>
+      <div class="faq-item__body">Да: терапия и педиатрия по ОМС, а также 40+ страховых по ДМС — СОГАЗ, Ингосстрах, АльфаСтрахование и другие. Возьмите полис и паспорт.</div>
+    </details>
+    <details class="faq-item">
+      <summary>Где припарковаться и как доехать?</summary>
+      <div class="faq-item__body">5 минут пешком от м. Чистые пруды (выход на Покровский бульвар). Для автомобилей — 12 бесплатных мест во дворе, код ворот даём при записи.</div>
+    </details>
+  </div>
+</section>
+
+<!-- ═══════════ ЗАПИСЬ: 100% чистый CSS (радиокнопки + :has + скрытый checkbox) ═══════════ -->
+<section class="section" id="booking" style="padding-top:0" aria-labelledby="t-booking">
+  <div class="container book">
+    <div class="book-info">
+      <span class="eyebrow" style="color:#9FC4A7">Онлайн-запись</span>
+      <h2 id="t-booking">Ваше время<br>для здоровья</h2>
+      <p>Выберите услугу, врача, дату и время справа и нажмите «Записаться». Кнопка станет активной, когда выберете всё нужное.</p>
+      <a class="big-phone" href="tel:+74951234567">+7 (495) 123-45-67</a>
+      <p style="font-size:13px;color:#9FC4A7">Ежедневно 08:00–21:00, без перерыва на обед</p>
+    </div>
+
+    <div class="card book-card">
+      <!-- Скрытый «переключатель»: форма ⇄ плашка подтверждения -->
+      <input class="sr-only" type="checkbox" id="f-confirm" tabindex="-1" aria-hidden="true">
+
+      <!-- ===== ФОРМА (скрывается после нажатия «Записаться») ===== -->
+      <div class="book-fields">
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-name">Как к вам обращаться *</label>
+            <input class="input" id="f-name" type="text" placeholder="Например, Алина" minlength="2" required>
+          </div>
+          <div class="field">
+            <label for="f-phone">Телефон для SMS *</label>
+            <div class="phone-wrap">
+              <input class="input" id="f-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" pattern="(\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}|[78]?\d{10})" title="Номер в формате +7 (___) ___-__-__" required>
+            </div>
+
+          </div>
+        </div>
+
+        <fieldset style="border:0;padding:0;margin:0">
+          <span class="group-title">Услуга *</span>
+          <div class="chip-choice-group">
+            <input class="sr-only" type="radio" name="svc" id="svc-ter"><label class="chip-choice" for="svc-ter">Терапевт<br>2 800 ₽</label>
+            <input class="sr-only" type="radio" name="svc" id="svc-rep"><label class="chip-choice" for="svc-rep">Повторный<br>1 900 ₽</label>
+            <input class="sr-only" type="radio" name="svc" id="svc-peds"><label class="chip-choice" for="svc-peds">Педиатр<br>2 500 ₽</label>
+            <input class="sr-only" type="radio" name="svc" id="svc-card"><label class="chip-choice" for="svc-card">Кардиолог + ЭКГ<br>3 500 ₽</label>
+            <input class="sr-only" type="radio" name="svc" id="svc-uzi"><label class="chip-choice" for="svc-uzi">УЗИ брюшной<br>2 200 ₽</label>
+            <input class="sr-only" type="radio" name="svc" id="svc-lab"><label class="chip-choice" for="svc-lab">Общий анализ<br>650 ₽</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="border:0;padding:0;margin:0">
+          <span class="group-title">Врач *</span>
+          <div class="doctor-choices">
+            <input class="sr-only" type="radio" name="doc" id="doc-any"><label class="doctor-choice" for="doc-any"><span class="doctor-choice__any" aria-hidden="true">✦</span><span><b>Первый свободный</b><small>кто примет раньше</small></span></label>
+            <input class="sr-only" type="radio" name="doc" id="doc-sokolova"><label class="doctor-choice" for="doc-sokolova"><img src="img/sokolova.jpg" alt=""><span><b>Соколова Е. А.</b><small>терапевт · завтра 09:30</small></span></label>
+            <input class="sr-only" type="radio" name="doc" id="doc-murashev"><label class="doctor-choice" for="doc-murashev"><img src="img/murashev.jpg" alt=""><span><b>Мурашов А. Ю.</b><small>педиатр · сегодня 19:00</small></span></label>
+            <input class="sr-only" type="radio" name="doc" id="doc-kryuchkova"><label class="doctor-choice" for="doc-kryuchkova"><img src="img/kryuchkova.jpg" alt=""><span><b>Крючкова О. Л.</b><small>кардиолог · завтра 08:30</small></span></label>
+          </div>
+        </fieldset>
+
+        <fieldset style="border:0;padding:0;margin:0">
+          <span class="group-title">Дата *</span>
+          <div class="chip-choice-group">
+            <input class="sr-only" type="radio" name="day" id="day-7"><label class="chip-choice" for="day-7"><small>Сб</small>7 ноя</label>
+            <input class="sr-only" type="radio" name="day" id="day-9"><label class="chip-choice" for="day-9"><small>Пн</small>9 ноя</label>
+            <input class="sr-only" type="radio" name="day" id="day-11"><label class="chip-choice" for="day-11"><small>Ср</small>11 ноя</label>
+            <input class="sr-only" type="radio" name="day" id="day-13"><label class="chip-choice" for="day-13"><small>Пт</small>13 ноя</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="border:0;padding:0;margin:0">
+          <span class="group-title">Время *</span>
+          <div class="chip-choice-group">
+            <input class="sr-only" type="radio" name="time" id="time-0930"><label class="chip-choice" for="time-0930">09:30</label>
+            <input class="sr-only" type="radio" name="time" id="time-1100"><label class="chip-choice" for="time-1100">11:00</label>
+            <input class="sr-only" type="radio" name="time" id="time-1330"><label class="chip-choice" for="time-1330">13:30</label>
+            <input class="sr-only" type="radio" name="time" id="time-1620"><label class="chip-choice" for="time-1620">16:20</label>
+            <input class="sr-only" type="radio" name="time" id="time-1815"><label class="chip-choice" for="time-1815">18:15</label>
+          </div>
+        </fieldset>
+
+        <label class="consent" for="f-consent">
+          <input type="checkbox" id="f-consent">
+          <span>Я соглашаюсь на обработку персональных данных по 152-ФЗ и принимаю договор-оферту</span>
+        </label>
+
+        <!-- «Отправить» — это label к скрытому #f-confirm: нажатие включает плашку -->
+        <label class="btn btn--block book-btn" for="f-confirm">Записаться на приём</label>
+
+      </div>
+
+      <!-- ===== ПЛАШКА «ЗАПИСЬ ПОДТВЕРЖДЕНА» ===== -->
+      <div class="booking-success" role="status">
+        <svg class="check-badge" viewBox="0 0 84 84" aria-hidden="true">
+          <circle cx="42" cy="42" r="38"/>
+          <path d="M27 43.5l10.5 10.5L58 32"/>
+        </svg>
+        <h3>Запись подтверждена!</h3>
+        <p class="muted">Мы пришлём SMS-подтверждение на указанный номер. Если планы изменятся — предупредите за 3 часа, перенесём бесплатно.</p>
+        <div class="ticket" aria-label="Детали вашей записи">
+          <div><span>Услуга</span><b>
+            <span class="opt o-svc-ter">Первичный приём терапевта</span>
+            <span class="opt o-svc-rep">Повторный приём терапевта</span>
+            <span class="opt o-svc-peds">Приём педиатра</span>
+            <span class="opt o-svc-card">Консультация кардиолога с ЭКГ</span>
+            <span class="opt o-svc-uzi">УЗИ брюшной полости</span>
+            <span class="opt o-svc-lab">Общий анализ крови</span>
+          </b></div>
+          <div><span>Врач</span><b>
+            <span class="opt o-doc-any">Первый свободный врач</span>
+            <span class="opt o-doc-sokolova">Соколова Елена Андреевна · терапевт</span>
+            <span class="opt o-doc-murashev">Мурашов Артём Юрьевич · педиатр</span>
+            <span class="opt o-doc-kryuchkova">Крючкова Ольга Леонидовна · кардиолог</span>
+          </b></div>
+          <div><span>Дата</span><b>
+            <span class="opt o-day-7">Суббота, 7 ноября</span>
+            <span class="opt o-day-9">Понедельник, 9 ноября</span>
+            <span class="opt o-day-11">Среда, 11 ноября</span>
+            <span class="opt o-day-13">Пятница, 13 ноября</span>
+          </b></div>
+          <div><span>Время</span><b>
+            <span class="opt o-time-0930">09:30</span>
+            <span class="opt o-time-1100">11:00</span>
+            <span class="opt o-time-1330">13:30</span>
+            <span class="opt o-time-1620">16:20</span>
+            <span class="opt o-time-1815">18:15</span>
+          </b></div>
+          <div><span>Место</span><b>Москва, ул. Покровка, 12, стр. 1</b></div>
+          <div><span>Вход</span><b>с арки, домофон 12-А · 5 мин от м. Чистые пруды</b></div>
+          <div><span>Стоимость</span><b>
+            <span class="opt o-price-ter">2 800 ₽</span>
+            <span class="opt o-price-rep">1 900 ₽</span>
+            <span class="opt o-price-peds">2 500 ₽</span>
+            <span class="opt o-price-card">3 500 ₽</span>
+            <span class="opt o-price-uzi">2 200 ₽</span>
+            <span class="opt o-price-lab">650 ₽</span>
+          </b></div>
+          <div><span>С собой</span><b>паспорт и полис ОМС/ДМС</b></div>
+        </div>
+        <div class="success-actions">
+          <label class="btn btn--ghost" for="f-confirm">Изменить запись</label>
+          <a class="btn" href="#contacts">Как добраться</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ КОНТАКТЫ ═══════════ -->
+<section class="section" id="contacts" style="padding-top:0" aria-labelledby="t-contacts">
+  <div class="container">
+    <span class="eyebrow">Контакты</span>
+    <h2 class="section-title" id="t-contacts">Где мы находимся</h2>
+    <div class="contacts" style="margin-top:18px">
+      <div class="card contacts__panel">
+        <div class="contact-row"><small>Адрес</small><a href="https://yandex.ru/maps/?text=Москва,+Покровка+12" target="_blank" rel="noopener">г. Москва, ул. Покровка, 12, стр. 1</a><br><span class="hint">вход с арки, 5 минут от м. Чистые пруды</span></div>
+        <div class="contact-row"><small>Телефон</small><a href="tel:+74951234567">+7 (495) 123-45-67</a><br><span class="hint">ежедневно 08:00–21:00</span></div>
+        <div class="contact-row"><small>Почта</small><a href="/cdn-cgi/l/email-protection#9cf4f9f0f0f3dcfde5fef3f0f5e8b2fff0f5f2f5ff"><span class="__cf_email__" data-cfemail="c6aea3aaaaa986a7bfa4a9aaafb2e8a5aaafa8afa5">[email&#160;protected]</span></a></div>
+        <a class="btn" href="#booking" style="align-self:flex-start;margin-top:6px">Записаться на приём</a>
+      </div>
+      <div class="map" role="region" aria-label="Яндекс.Карта: клиника «Айболит», Москва, ул. Покровка, 12 стр. 1">
+        <iframe class="map__frame" title="Яндекс.Карты — клиника «Айболит», Москва, ул. Покровка, 12 стр. 1" src="https://yandex.ru/map-widget/v1/?ll=37.6477%2C55.7597&z=16&pt=37.6477%2C55.7597%2Cpm2rdm1&l=map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="map__caption">
+          <span class="map__addr"><b>Клиника «Айболит»</b><br>Москва, ул. Покровка, 12, стр. 1 · м. Чистые пруды, 5 мин</span>
+          <a class="btn btn--ghost" href="https://yandex.ru/maps/?text=Москва,%20Покровка,%2012" target="_blank" rel="noopener">Открыть в Яндекс.Картах</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ МОДАЛ: врач Соколова (:target, чисто CSS) ═══════════ -->
+<div class="modal" id="modal-sokolova" role="dialog" aria-modal="true" aria-labelledby="mt-sokolova">
+  <a class="modal__backdrop" href="#doctors" aria-label="Закрыть окно"></a>
+  <div class="modal__box">
+    <a class="modal__close" href="#doctors" aria-label="Закрыть">×</a>
+    <div class="modal__head">
+      <img class="modal__photo" src="img/sokolova.jpg" alt="Соколова Елена Андреевна, врач-терапевт">
+      <div>
+        <h3 id="mt-sokolova">Соколова Елена Андреевна</h3>
+        <p class="modal__spec">Терапевт высшей категории · заведующая терапевтическим отделением</p>
+        <span class="chip">Стаж 14 лет · 8 400+ приёмов</span>
+        <span class="chip">★ 4,9 · 312 отзывов</span>
+      </div>
+    </div>
+    <blockquote>«Моя задача — чтобы вы понимали, что с вами происходит и зачем каждое назначение. Страх лечится пониманием».</blockquote>
+    <h4>Образование и опыт</h4>
+    <ul>
+      <li>2007–2013 · Челябинская государственная медицинская академия, лечебный факультет</li>
+      <li>2013–2015 · ординатура по терапии, Первый МГМУ им. И. М. Сеченова</li>
+      <li>2018 · высшая квалификационная категория по терапии</li>
+      <li>2021 — н. в. · заведующая терапевтическим отделением «Айболита»</li>
+    </ul>
+    <h4>Стоимость приёма</h4>
+    <p style="font-weight:700;color:var(--green)">Первичный — 2 800 ₽ · повторный — 1 900 ₽</p>
+    <h4>Ближайшие окна</h4>
+    <p class="muted" style="font-size:13.5px">Пн, Ср, Пт · 09:00–18:00. Ближайшие: завтра 09:30 · 11:00 · 16:20</p>
+    <a class="btn btn--block" href="#booking" style="margin-top:16px">Записаться к Елене Андреевне</a>
+  </div>
+</div>
+
+<!-- ═══════════ МОДАЛ: врач Мурашов (:target, чисто CSS) ═══════════ -->
+<div class="modal" id="modal-murashev" role="dialog" aria-modal="true" aria-labelledby="mt-murashev">
+  <a class="modal__backdrop" href="#doctors" aria-label="Закрыть окно"></a>
+  <div class="modal__box">
+    <a class="modal__close" href="#doctors" aria-label="Закрыть">×</a>
+    <div class="modal__head">
+      <img class="modal__photo" src="img/murashev.jpg" alt="Мурашов Артём Юрьевич, педиатр">
+      <div>
+        <h3 id="mt-murashev">Мурашов Артём Юрьевич</h3>
+        <p class="modal__spec">Педиатр · детский чекап и вакцинация</p>
+        <span class="chip">Стаж 12 лет · 6 900+ приёмов</span>
+        <span class="chip">★ 4,9 · 268 отзывов</span>
+      </div>
+    </div>
+    <blockquote>«Приём без слёз — это когда ребёнок ушёл улыбаясь, а родители поняли, что делать дальше».</blockquote>
+    <h4>Образование и опыт</h4>
+    <ul>
+      <li>2006–2012 · РНИМУ им. Н. И. Пирогова, педиатрический факультет</li>
+      <li>2012–2014 · ординатура по педиатрии, ДГКБ им. Г. Н. Сперанского</li>
+      <li>2016 · сертификат по вакцинации и неотложной помощи детям</li>
+      <li>2020 — н. в. · педиатр «Айболита», ведёт школу молодых родителей</li>
+    </ul>
+    <h4>Стоимость приёма</h4>
+    <p style="font-weight:700;color:var(--green)">Первичный — 2 500 ₽ · патронаж новорождённого — 2 200 ₽</p>
+    <h4>Ближайшие окна</h4>
+    <p class="muted" style="font-size:13.5px">Ежедневно · 09:00–20:00. Ближайшие: сегодня 19:00 · завтра 10:00 · 12:30</p>
+    <a class="btn btn--block" href="#booking" style="margin-top:16px">Записать ребёнка к Артёму Юрьевичу</a>
+  </div>
+</div>
+
+<!-- ═══════════ МОДАЛ: врач Крючкова (:target, чисто CSS) ═══════════ -->
+<div class="modal" id="modal-kryuchkova" role="dialog" aria-modal="true" aria-labelledby="mt-kryuchkova">
+  <a class="modal__backdrop" href="#doctors" aria-label="Закрыть окно"></a>
+  <div class="modal__box">
+    <a class="modal__close" href="#doctors" aria-label="Закрыть">×</a>
+    <div class="modal__head">
+      <img class="modal__photo" src="img/kryuchkova.jpg" alt="Крючкова Ольга Леонидовна, кардиолог">
+      <div>
+        <h3 id="mt-kryuchkova">Крючкова Ольга Леонидовна</h3>
+        <p class="modal__spec">Кардиолог высшей категории · ЭКГ и суточный Холтер</p>
+        <span class="chip">Стаж 21 год · 11 000+ приёмов</span>
+        <span class="chip">★ 5,0 · 190 отзывов</span>
+      </div>
+    </div>
+    <blockquote>«Сердце любит, когда его слушают вовремя. Приходите на профилактику — а не на операцию».</blockquote>
+    <h4>Образование и опыт</h4>
+    <ul>
+      <li>1998–2004 · МГМСУ им. А. И. Евдокимова, лечебный факультет</li>
+      <li>2004–2006 · ординатура по кардиологии, НЦССХ им. А. Н. Бакулева</li>
+      <li>2012 · высшая квалификационная категория</li>
+      <li>2011 — н. в. · кардиолог «Айболита», ведёт школу гипертоников</li>
+    </ul>
+    <h4>Стоимость приёма</h4>
+    <p style="font-weight:700;color:var(--green)">Консультация с ЭКГ — 3 500 ₽ · Холтер — 4 100 ₽</p>
+    <h4>Ближайшие окна</h4>
+    <p class="muted" style="font-size:13.5px">Вт, Чт, Сб · 08:00–16:00. Ближайшие: завтра 08:30 · 10:15 · послезавтра 12:00</p>
+    <a class="btn btn--block" href="#booking" style="margin-top:16px">Записаться к Ольге Леонидовне</a>
+  </div>
+</div>
+
+<!-- ═══════════ ФУТЕР ═══════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <span class="logo__name" style="color:#F6F4EC">Айболит</span>
+        <p style="margin-top:10px;max-width:36ch">Семейная клиника полного цикла: терапия, педиатрия, стоматология, диагностика и анализы. С 2011 года.</p>
+      </div>
+      <nav aria-label="Разделы">
+        <h4>Разделы</h4>
+        <a href="#services">Услуги и цены</a><br>
+        <a href="#doctors">Врачи</a><br>
+        <a href="#reviews">Отзывы</a><br>
+        <a href="#booking">Запись</a>
+      </nav>
+      <nav aria-label="Клиника">
+        <h4>Клиника</h4>
+        <a href="#contacts">Контакты</a><br>
+        <a href="/cdn-cgi/l/email-protection#a6d0c7c5c7c8c5cfc3d5e6c7dfc4c9cacfd288c5cacfc8cfc5">Вакансии</a><br>
+        <a href="/cdn-cgi/l/email-protection#ccbcbea9bfbf8cadb5aea3a0a5b8e2afa0a5a2a5af">Пресс-центр</a>
+      </nav>
+      <div>
+        <h4>Контакты</h4>
+        <a href="tel:+74951234567" style="font-weight:700;color:#fff">+7 (495) 123-45-67</a><br>
+        <a href="/cdn-cgi/l/email-protection#0b636e6767644b6a72696467627f25686762656268"><span class="__cf_email__" data-cfemail="5a323f3636351a3b23383536332e74393633343339">[email&#160;protected]</span></a><br>
+        <span style="color:#8FAE95">Ежедневно 08:00–21:00</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Семейная клиника «Айболит»</span>
+      <span>Лицензия ЛО-77-01-012345 от 12.03.2021 · Материалы сайта не заменяют консультацию врача</span>
+    </div>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+/* js/main.js, вшит прямо в страницу: внешний файл может не загрузиться при открытии одним html — так надёжнее */
+'use strict';
+(function () {
+  const phoneInput = document.getElementById('f-phone');
+  if (!phoneInput) return;
+
+  function mask(raw) {
+    let d = raw.replace(/\D/g, '');
+    if (d.startsWith('8')) d = '7' + d.slice(1);          // 8-916… → +7 916…
+    else if (d.startsWith('78')) d = '7' + d.slice(2);    // «+7 8…» — восьмёрка после +7 выбрасывается
+    while (d.startsWith('77')) d = d.slice(1);            // дубль +7 схлопывается
+    if (d && !d.startsWith('7')) d = '7' + d;             // 9… → +7 9…
+    d = d.slice(0, 11);
+    if (!d) return raw.includes('+') ? '+7 (' : '';
+    let out = '+7';
+    if (d.length > 1) out += ' (' + d.slice(1, 4);
+    if (d.length >= 4) out += ') ' + d.slice(4, 7);
+    if (d.length >= 7) out += '-' + d.slice(7, 9);
+    if (d.length >= 9) out += '-' + d.slice(9, 11);
+    return out;
+  }
+
+  phoneInput.addEventListener('focus', () => {
+    if (!phoneInput.value) phoneInput.value = '+7 (';
+  });
+  phoneInput.addEventListener('input', () => { phoneInput.value = mask(phoneInput.value); });
+  // страховка: если браузер подставил номер сам (автозаполнение) без события input — выровняем по маске
+  phoneInput.addEventListener('change', () => { phoneInput.value = mask(phoneInput.value); });
+  phoneInput.addEventListener('blur', () => {
+    if (phoneInput.value === '+7 (' || phoneInput.value === '+7') phoneInput.value = '';
+  });
+})();
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a562db787d216135',t:'MTc5Mzk1NTA5Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a562db787d216135',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
